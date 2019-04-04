@@ -8,4 +8,8 @@ def fizzbuzz(fizz_3)
   if fizz_3 % 3== 0
     return "Fizz"
   end
+  
+  if fizz_3 % 5== 0
+    return "Buzz"
+  end
 end
